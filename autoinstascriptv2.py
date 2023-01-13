@@ -24,7 +24,7 @@ with open('Book9.csv', 'r', encoding = 'utf-8-sig') as handlesfile:
 
 #receiver handles
 user = handles
-message_ = ('hey! i was going through ig profiles because my team in bastrop is looking to expand and reach out to people who live / have lived in the area and your profile stood out. the job is an entry level sales / service position. it\'s super flexible, you don\'t need any experience, and you can work remotely / from home. would you be interested in hearing more about part time summer work? if so, lmk and i\'ll send more info! thanks :)')
+message_ = ('message goes here')
 
 class bot:
     
@@ -135,7 +135,7 @@ class bot:
             #time.sleep(2)
             
 def init():
-    bot('qthan_rutt', 'Sul;comcom', user, message_)
+    bot('username goes here', 'password goes here', user, message_)
     
     print('DONE')
     
